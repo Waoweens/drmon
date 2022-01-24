@@ -1,9 +1,10 @@
 -- drmon installation script
 --
---
+-- attempted fix for 1.16 CC:Tweaked + Advanced Peripherals
+-- Tested on All the Mods 6, version 1.8.17
 
-local libURL = "https://raw.githubusercontent.com/acidjazz/drmon/master/lib/f.lua"
-local startupURL = "https://raw.githubusercontent.com/acidjazz/drmon/master/drmon.lua"
+local libURL = "https://raw.githubusercontent.com/Waoweens/drmon/master/lib/f.lua"
+local startupURL = "https://raw.githubusercontent.com/Waoweens/drmon/master/drmon.lua"
 local lib, startup
 local libFile, startupFile
 
@@ -23,4 +24,3 @@ startupFile = startup.readAll()
 local file2 = fs.open("startup", "w")
 file2.write(startupFile)
 file2.close()
-
