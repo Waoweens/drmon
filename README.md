@@ -2,13 +2,15 @@
 ![](examples/2.jpg)
 > *status*: currently stable, writing documentation
 
+# This is an attempted fix for 1.16. Might work, might not
 
 # drmon
 monitor and failsafe automation for your draconic reactor
 
 ### what is this
 this is a computercraft LUA script that monitors everything about a draconic reactor, with a couple features to help keep it from exploding
-NB: This is for Minecraft 1.7.10. You will need to edit references within the code for any version higher to reflect any changes made to Draconic Evolution past its 1.7.10 release.
+
+~~NB: This is for Minecraft 1.7.10. You will need to edit references within the code for any version higher to reflect any changes made to Draconic Evolution past its 1.7.10 release.~~
 
 
 ### tutorial
